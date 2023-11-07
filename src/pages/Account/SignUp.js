@@ -83,7 +83,7 @@ const Signup = () => {
       alert('Please fill in all fields');
     } else {
       try {
-        const response = await fetch('/signup', {
+        const response = await fetch('https://backenddd-w6f5.onrender.com/signup', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
